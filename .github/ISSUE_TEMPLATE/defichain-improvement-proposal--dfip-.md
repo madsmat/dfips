@@ -76,15 +76,17 @@ dUSD < 1$
 
 If a sell of 5000 dUSD would depeg a pool from -5% to -10% fee calculation would look like this:
 
+Caution: free choosen numbers, a sell of 5000 dUSD would never have such a huge price impact (= fee will be way less)
+
 5000*(-5%) = -250 dUSD
 
 5000*(-10%) = -500 dUSD
 
 -250 dUSD - (-500 dUSD) = 250 dUSD counter trade fee
 
-+ 12.5 dUSD (5% burn fee)
++12.5 dUSD (5% burn fee)
 
-+ 12.5 dUSD (5% commission for liq provider)
++12.5 dUSD (5% commission for liq provider)
 
 Sum Fee = 275 dUSD (5.5% for 5% further depeg)
 
