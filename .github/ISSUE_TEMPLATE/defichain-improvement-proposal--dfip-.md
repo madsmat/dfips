@@ -43,10 +43,14 @@ This part of the fee will be rewarded to the trader who is doing the counter tra
 The commission will be distributed to liquidity providers as a penalty for the trader to imbalance their position
 
 3. Burn (5% of counter trade reward)
-The burn part is an anti whale measure to make it more expensive manipulating prices and help to repeg."						
-Which token will be collected as fee?						
-"If the price is below 1$, fees will be collected and distributed in dUSD, otherwise in DFI.
-Because it doesn't make sense to burn USDT or USDC, both have to be automatically converted to DFI when collected (burn part). All other fee parts will be distributed in USDT or USDC."	
+The burn part is an anti whale measure to make it more expensive manipulating prices and help to repeg.
+
+
+Which token will be collected as fee?			
+
+
+If the price is below 1$, fees will be collected and distributed in dUSD, otherwise in DFI.
+Because it doesn't make sense to burn USDT or USDC, both have to be automatically converted to DFI when collected (burn part). All other fee parts will be distributed in USDT or USDC.	
 
 To which pools will the dynamic fee be applied?	
 
