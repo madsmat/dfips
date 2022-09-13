@@ -18,7 +18,7 @@ Take note that this is a vote of confidence for DFIP, it carries no obligations 
 
 ### DFIP Overview
 1. Requester(s): Telegram: @Maaze19 & @benbe14
-2. Reddit discussion thread (optional): [Provide a link to Reddit discussion thread]
+2. Reddit discussion thread (optional): https://www.reddit.com/r/defiblockchain/comments/xd7m6p/dusd_repeg_dfip_discussion_dusd_repeg_by/
 3. Proposal fee (50 DFI) txid: [Insert txid of 10 DFI sent to the burn address]
 
 ### Describe your proposal
@@ -27,7 +27,7 @@ Simple and intuitive solution to repeg dUSD permanently
 One sentence summary: take an addtional fee from trades which would unpeg the dUSD-dex-price further and distribute them to those traders, who are helping to repeg dUSD to 1$
 
 
-Complete Simuation with onchain data (experts): https://onedrive.live.com/View.aspx?resid=47D5DB097F45021B!77261&wde=xlsx&wdp=3&wdinitialsession=ceb3a15a-3c99-472a-94c6-2d7cea02dad7&wdrldsc=1&wdrldc=2&wdrldr=FileOpenUserUnauthorized&authkey=!AFRX_wEq1s1wjRU
+Complete Simulation with onchain data (experts): https://onedrive.live.com/View.aspx?resid=47D5DB097F45021B!77261&wde=xlsx&wdp=3&wdinitialsession=ceb3a15a-3c99-472a-94c6-2d7cea02dad7&wdrldsc=1&wdrldc=2&wdrldr=FileOpenUserUnauthorized&authkey=!AFRX_wEq1s1wjRU
 
 Who has to pay fees?	
 
