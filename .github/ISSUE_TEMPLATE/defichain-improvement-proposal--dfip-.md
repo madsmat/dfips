@@ -60,8 +60,10 @@ When would it be activated?
 - Commission reward will be paid out
 - Burn fee & counter trade reward will be collected until the reward pool is big enough to pay all rewards to repeg price (1$)
 3. burn and counter trade rewards activated
-- Ensure that never more rewards will be paid out than collected."						
-How will the fee be calculated?						
+- Ensure that never more rewards will be paid out than collected."		
+- 				
+How will the fee be calculated?			
+
 "Fee calculation is simple:
 1. check the difference between dex and oracle price BEFORE the swap
 2. check the difference between dex and oracle price AFTER the swap
