@@ -79,6 +79,7 @@ This would be about 2,5% with a ""divisor"" of 10 (see playground)"
 1. Potential permanent repeg of dUSD to about $1
 2. Benefitting the DefiChain-Ecosystem by helping to repeg dUSD will only give advantages, on the other hand unpeg dUSD or make huge transactions which lead to huge price impacts will be charged with fees
 3. burn fee will further help burning dUSD (less algo-dUSD) or DFI which could have a positive longterm impact on the dfi price
+4. comission fee will give further rewards for liquidity providers (higher APR)
 
  <!-- Leave the following intact -->
 ### Non-obligation
