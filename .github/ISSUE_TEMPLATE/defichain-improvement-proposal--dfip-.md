@@ -39,10 +39,10 @@ How will the fee distributed?
 1. Counter trade reward (dynamic)
 This part of the fee will be rewarded to the trader who is doing the counter trade (towards peg)
 
-2. Commission (5%)
+2. Commission (5% of counter trade reward)
 The commission will be distributed to liquidity providers as a penalty for the trader to imbalance their position
 
-3. Burn (5%)
+3. Burn (5% of counter trade reward)
 The burn part is an anti whale measure to make it more expensive manipulating prices and help to repeg."						
 Which token will be collected as fee?						
 "If the price is below 1$, fees will be collected and distributed in dUSD, otherwise in DFI.
@@ -70,6 +70,18 @@ How will the fee be calculated?
 3. Calculate the fee based on data before and after, subtract both
 4. If the depeg will be bigger, the formula is automatically positive => have to pay
 If the depeg will be smaller, the formula is automatically negative => eligible to be rewarded"		
+
+Example:
+dUSD < 1$
+
+If a sell of 5000 dUSD would depeg a pool from -5% to -10% fee calculation would look like this:
+
+5000*(-5%) = -250 dUSD
+5000*(-10%) = -500 dUSD
+-250 dUSD - (-500 dUSD) = 250 dUSD counter trade fee
++ 12.5 dUSD (5% burn fee)
++ 12.5 dUSD (5% commission for liq provider)
+Sum Fee = 275 dUSD (5.5% for 5% further depeg)
 
 Even more fees?		
 
