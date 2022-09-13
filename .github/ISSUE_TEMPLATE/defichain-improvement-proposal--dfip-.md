@@ -29,7 +29,7 @@ One sentence summary: take an addtional fee from trades which would unpeg the dU
 
 Complete Simuation with onchain data (experts): https://onedrive.live.com/View.aspx?resid=47D5DB097F45021B!77261&wde=xlsx&wdp=3&wdinitialsession=ceb3a15a-3c99-472a-94c6-2d7cea02dad7&wdrldsc=1&wdrldc=2&wdrldr=FileOpenUserUnauthorized&authkey=!AFRX_wEq1s1wjRU
 
-Who have to pay fees?	
+Who has to pay fees?	
 
 Fees have to be paid if a trade is against the oracle price. E.g. if the oracle price of dUSD is 1$, the dex price is 0.90$, selling dUSD will include a fee while buying dUSD will be rewarded with fees collected by sellers. If the dex price is above the oracle price, buyers have to pay a fee while sellers will be rewarded.		
 
