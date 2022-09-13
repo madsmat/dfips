@@ -1,7 +1,7 @@
 ---
 name: DeFiChain Improvement Proposal (DFIP)
 about: Submission of DFIP for vote of confidence
-title: 'DFIP: dUSD repeg by incentivise (reward) "repeg-trades" by taking dynamic swap fee from "unpeg-trades'
+title: 'DFIP: dUSD repeg by incentivise (reward) repeg-trades by charging dynamic counter trade fee from unpeg-trades'
 labels: dfip, draft
 assignees: ''
 
@@ -33,7 +33,7 @@ Who has to pay fees?
 
 Fees have to be paid if a trade is against the oracle price. E.g. if the oracle price of dUSD is 1$, the dex price is 0.90$, selling dUSD will include a fee while buying dUSD will be rewarded with fees collected by sellers. If the dex price is above the oracle price, buyers have to pay a fee while sellers will be rewarded.		
 
-How will the fee distributed?					
+How will the fee be distributed?					
 
 "The collected fee consists of three different parts:
 1. Counter trade reward (dynamic)
@@ -61,7 +61,8 @@ When would it be activated?
 - Burn fee & counter trade reward will be collected until the reward pool is big enough to pay all rewards to repeg price (1$)
 3. burn and counter trade rewards activated
 - Ensure that never more rewards will be paid out than collected."		
-- 				
+
+
 How will the fee be calculated?			
 
 "Fee calculation is simple:
