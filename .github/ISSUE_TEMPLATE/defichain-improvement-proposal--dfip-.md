@@ -24,18 +24,20 @@ Take note that this is a vote of confidence for DFIP, it carries no obligations 
 ### Describe your proposal
 Simple and intuitive solution to repeg dUSD permanently
 
+Even if dUSD is near to 1$ this DFIP could help avoid bigger depeg trades in the future. 
+
 One sentence summary: take an addtional fee from trades which would unpeg the dUSD-dex-price further and distribute them to those traders, who are helping to repeg dUSD to 1$
 
 
 Complete Simulation with onchain data (experts): https://onedrive.live.com/View.aspx?resid=47D5DB097F45021B!77261&wde=xlsx&wdp=3&wdinitialsession=ceb3a15a-3c99-472a-94c6-2d7cea02dad7&wdrldsc=1&wdrldc=2&wdrldr=FileOpenUserUnauthorized&authkey=!AFRX_wEq1s1wjRU
 
-Who has to pay fees?	
+### Who has to pay fees?	
 
 Fees have to be paid if a trade is against the oracle price. E.g. if the oracle price of dUSD is 1$, the dex price is 0.90$, selling dUSD will include a fee while buying dUSD will be rewarded with fees collected by sellers. If the dex price is above the oracle price, buyers have to pay a fee while sellers will be rewarded.		
 
-How will the fee be distributed?					
+### How will the fee be distributed?					
 
-"The collected fee consists of three different parts:
+The collected fee consists of three different parts:
 1. Counter trade reward (dynamic)
 This part of the fee will be rewarded to the trader who is doing the counter trade (towards peg)
 
@@ -46,19 +48,19 @@ The commission will be distributed to liquidity providers as a penalty for the t
 The burn part is an anti whale measure to make it more expensive manipulating prices and help to repeg.
 
 
-Which token will be collected as fee?			
+### Which token will be collected as fee?			
 
 
 If the price is below 1$, fees will be collected and distributed in dUSD, otherwise in DFI.
 Because it doesn't make sense to burn USDT or USDC, both have to be automatically converted to DFI when collected (burn part). All other fee parts will be distributed in USDT or USDC.	
 
-To which pools will the dynamic fee be applied?	
+### To which pools will the dynamic fee be applied?	
 
-Basically the dynamic fee approach can be used for all dToken pairs. At first step it should be only used for USDT-DUSD, USDC-DUSD and DUSD-DFI.			
+We would like to propose this DFIP only for the dUSD-USDT and the dUSD-USDC Pools. After everything works as planned, this DFIP can be rolled out to dUSD-DFI and all dToken Pairs. Therefore we have to check the impact of delayed oracles due to a long blocktime or stock market data. (New DFIP will follow for this)			
 
-When would it be activated?	
+### When would it be activated?	
 
-"Because first we have to fill the reward pool, the activation happens in 3 major steps:
+Because first we have to fill the reward pool, the activation happens in 3 major steps:
 1. Implementation
 2. Activating through a hard fork
 - Commission reward will be paid out
@@ -67,9 +69,9 @@ When would it be activated?
 - Ensure that never more rewards will be paid out than collected."		
 
 
-How will the fee be calculated?			
+### How will the fee be calculated?			
 
-"Fee calculation is simple:
+Fee calculation is simple:
 1. check the difference between dex and oracle price BEFORE the swap
 2. check the difference between dex and oracle price AFTER the swap
 3. Calculate the fee based on data before and after, subtract both
@@ -87,19 +89,16 @@ Caution: free choosen numbers, a sell of 5000 dUSD would never have such a huge 
 
 5000*(-10%) = -500 dUSD
 
--250 dUSD - (-500 dUSD) = 250 dUSD counter trade fee
+= |-250 dUSD| + |-500 dUSD| / 20
 
-+12.5 dUSD (5% burn fee)
+= 37.5 dUSD counter trade fee
 
-+12.5 dUSD (5% commission for liq provider)
+   + 1.875 dUSD (5% burn fee)
 
-Sum Fee = 275 dUSD (5.5% for 5% further depeg)
+   + 1.875 dUSD (5% commission for liq provider)
 
-Even more fees?		
-
-"Swaps in repeg direction will be rewarded, they only have advantages.
-Swaps against the repeg would have higher fees.  In consultation with the community the stabilization fee could be reduced by the value of a fee from 25% below peg. 
-This would be about 2,5% with a ""divisor"" of 10 (see playground)"						 
+Sum Fee = 41.25 dUSD (0.825% for 5% further depeg)
+				 
 
 ### How does this DFIP benefit the DeFiChain community?
 1. Potential permanent repeg of dUSD to about $1
