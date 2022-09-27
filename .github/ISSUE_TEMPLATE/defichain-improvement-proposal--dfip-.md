@@ -21,7 +21,7 @@ Even if dUSD is near to 1$ this DFIP could help avoid bigger depeg trades in the
 One sentence summary: take an addtional fee from trades which would unpeg the dUSD-dex-price further and distribute them to those traders, who are helping to repeg dUSD to 1$
 
 
-Complete Simulation with onchain data (experts): https://onedrive.live.com/View.aspx?resid=47D5DB097F45021B!77261&wde=xlsx&wdp=3&wdinitialsession=ceb3a15a-3c99-472a-94c6-2d7cea02dad7&wdrldsc=1&wdrldc=2&wdrldr=FileOpenUserUnauthorized&authkey=!AFRX_wEq1s1wjRU
+Complete Simulation with onchain data (experts): https://1drv.ms/x/s!AjnWQ5JHqJQUcO_izW-NvJyqWAQ?e=86GTKc
 
 ### Who has to pay fees?	
 
