@@ -74,7 +74,7 @@ Because first we have to fill the reward pool, the activation happens in 3 major
 Fee calculation is simple:
 1. check the difference between dex and oracle price BEFORE the swap
 2. check the difference between dex and oracle price AFTER the swap
-3. Calculate the fee based on data before and after, subtract both
+3. Calculate the fee based on data before and after (see playground sheet or example)
 4. If the depeg will be bigger, the formula is automatically positive => have to pay
 If the depeg will be smaller, the formula is automatically negative => eligible to be rewarded"		
 
