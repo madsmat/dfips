@@ -1,11 +1,3 @@
----
-name: DeFiChain Improvement Proposal (DFIP)
-about: Submission of DFIP for vote of confidence
-title: 'DFIP: dUSD repeg by incentivise (reward) repeg-trades by charging dynamic counter trade fee from unpeg-trades'
-labels: dfip, draft
-assignees: ''
-
----
 
 <!-- 
 As part of the requirement for submission of DFIP for vote of confidence, you are required to pay 50 DFI fee for it to be voted on. After you have submitted this vote of , please transfer 50 DFI to the burn address `8defichainBurnAddressXXXXXXXdRQkSm` and take note of your `txid` and list it here. You may be required to prove that the transfer if yours if there are multiple CFP claims to it. 
