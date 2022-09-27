@@ -11,7 +11,7 @@ Take note that this is a vote of confidence for DFIP, it carries no obligations 
 ### DFIP Overview
 1. Requester(s): Telegram: @Maaze19 & @benbe14
 2. Reddit discussion thread (optional): https://www.reddit.com/r/defiblockchain/comments/xd7m6p/dusd_repeg_dfip_discussion_dusd_repeg_by/
-3. Proposal fee (50 DFI) txid: [Insert txid of 10 DFI sent to the burn address]
+3. Proposal fee (50 DFI) txid: c8a92c7713a94066ddba924ea85af5c9a1c926f12cac5fadfbaebd92c9df0993
 
 ### Describe your proposal
 Simple and intuitive solution to repeg dUSD permanently
